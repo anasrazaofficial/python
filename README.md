@@ -43,3 +43,10 @@
           print("On" in course) # False
 
 > [Code](./strings.py)
+
+## Math
+
+- **a // b**: Divides and gives the before point value (`3.333` -> `3`)
+- **round(num)**: Rounds off the value
+- **abs(num)**: Makes value absolute (positive)
+- 
