@@ -5,8 +5,12 @@
 - **print(val1)**: is used to print
 - **input(message)**: is used to take input
 - Logical operators are **and** for `&&`, **or** for `||`, and **not** for `!`
+- **range(start, end, step)**
+  - If 1 param then run till `start`
+  - If 2 params then runs from `start` till `end`
+  - If 3 params then runs from `start` till `end` with `step`
 
-> [Code](./basic.py)
+> [Code](./basic.py), [Range](./loops.py)
 
 ## Type Conversion
 
@@ -50,4 +54,3 @@
 - **a // b**: Divides and gives the before point value (`3.333` -> `3`)
 - **round(num)**: Rounds off the value
 - **abs(num)**: Makes value absolute (positive)
-- 
