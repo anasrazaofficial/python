@@ -6,9 +6,9 @@
 - **input(message)**: is used to take input
 - Logical operators are **and** for `&&`, **or** for `||`, and **not** for `!`
 - **range(start, end, step)**
-  - If 1 param then run till `start`
-  - If 2 params then runs from `start` till `end`
-  - If 3 params then runs from `start` till `end` with `step`
+    - If 1 param then run till `start`
+    - If 2 params then runs from `start` till `end`
+    - If 3 params then runs from `start` till `end` with `step`
 
 > [Code](./basic.py), [Range](./loops.py)
 
@@ -54,3 +54,18 @@
 - **a // b**: Divides and gives the before point value (`3.333` -> `3`)
 - **round(num)**: Rounds off the value
 - **abs(num)**: Makes value absolute (positive)
+
+## Lists
+
+- **max(list)**: Finds the largest number from the list
+- **list.append(element)**: Adds the element just like push
+- **list.pop()**: Removes the last index
+- **list.insert(element, index)**: Insert the element at given index
+- **list.remove(element)**: Removes the first given element occurrence
+- **element in list**: Returns the boolean if an element is in the list
+- **list.index(element)**: Returns the index of that element
+- **list.count(element)**: Counts the element occurrence
+- **list2 = list.copy()**: Copies the list
+- **list.sort()**: Sorts the list
+- **list.reverse()**: Reverses the list
+- **list.clear()**: Empty the list
