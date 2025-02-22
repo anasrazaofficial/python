@@ -84,6 +84,28 @@ Similar to lists but immutable (unchangeable). Methods:
 
 > [Code](./tuples.py)
 
-## Unpacking
+## OOP
 
-Extracting the elements of a collection
+### Class and Constructor
+
+- **def __init__(self, params...)**: Self is passed as `this`
+- `self` is also passed in every function definition but not while calling
+
+> [Code](./OOP/Classes.py)
+
+### Inheritance
+
+- Inherits another class with parameters, `class Child(Parent):`
+- **pass**: When you do not want anything in a child class
+
+```python
+class Parent:
+    def func(self):
+        print("Hello world")
+
+
+class Dog(Parent):
+    pass
+```
+
+> [Code](./OOP/Inheritance.py)
