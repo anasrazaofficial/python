@@ -9,8 +9,9 @@
     - If 1 param then run till `start`
     - If 2 params then runs from `start` till `end`
     - If 3 params then runs from `start` till `end` with `step`
+- **Unpacking**: Extracting the elements of a collection into variables
 
-> [Code](./basic.py), [Range](./loops.py)
+> [Code](./basic.py), [Range](./loops.py), [Unpacking](./unpacking.py)
 
 ## Type Conversion
 
@@ -55,6 +56,8 @@
 - **round(num)**: Rounds off the value
 - **abs(num)**: Makes value absolute (positive)
 
+> [Code](math.py)
+
 ## Lists
 
 - **max(list)**: Finds the largest number from the list
@@ -70,9 +73,17 @@
 - **list.reverse()**: Reverses the list
 - **list.clear()**: Empty the list
 
+> [Code](./list.py)
+
 ## Tuples
 
 Similar to lists but immutable (unchangeable). Methods:
 
 - **list.index(element)**: Returns the index of that element
 - **list.count(element)**: Counts the element occurrence
+
+> [Code](./tuples.py)
+
+## Unpacking
+
+Extracting the elements of a collection
