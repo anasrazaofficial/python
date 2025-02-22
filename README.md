@@ -91,7 +91,7 @@ Similar to lists but immutable (unchangeable). Methods:
 - **def __init__(self, params...)**: Self is passed as `this`
 - `self` is also passed in every function definition but not while calling
 
-> [Code](./OOP/Classes.py)
+> [Code](Classes.py)
 
 ### Inheritance
 
@@ -108,4 +108,4 @@ class Dog(Parent):
     pass
 ```
 
-> [Code](./OOP/Inheritance.py)
+> [Code](Inheritance.py)
