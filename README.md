@@ -69,3 +69,10 @@
 - **list.sort()**: Sorts the list
 - **list.reverse()**: Reverses the list
 - **list.clear()**: Empty the list
+
+## Tuples
+
+Similar to lists but immutable (unchangeable). Methods:
+
+- **list.index(element)**: Returns the index of that element
+- **list.count(element)**: Counts the element occurrence
